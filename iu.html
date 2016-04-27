@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>iu</title>
+  <style>
+    div{
+      width: 600px;
+    height: 750px;
+    border:6px solid #fff;
+    box-shadow: 0px 0px 30px 0px #ff0;
+   overflow:hidden;  
+      position:relative;
+    }
+    div img{
+     transition:all.3s ;
+      transform:scale(1)
+    }
+    div:hover img{
+      
+ cursor:pointer;
+     transform:scale(2.7)
+    }
+    div figcaption{
+      
+      position:absolute;
+      text-align:center;
+      left:0;
+      z-index:3;
+      bottom:0;
+      background-color:rgba(255,255,255,0);
+      height: 120px;
+      width: 100%;
+      color:rgba(0,60,0,0)
+        
+      
+      
+    }
+    div:hover figcaption{
+      color:rgba(0,60,0,1);
+      background-color:rgba(255,255,255,0.3);
+    }
+    figcaption{
+      font-style:italic;
+       font-weight:900;
+     text-indent:2em;
+      letter-spacing:8px;
+      font-size:xx-large;
+    }
+  </style>
+</head>
+<body>
+  <div class="a">
+    <figcaption>李知恩</figcaption>
+    <img src="http://img4.duitang.com/uploads/item/201402/19/20140219125612_WjMNT.thumb.600_0.jpeg" alt="">
+  </div>
+</body>
